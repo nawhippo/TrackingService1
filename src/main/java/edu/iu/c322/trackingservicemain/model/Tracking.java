@@ -22,15 +22,45 @@ public class Tracking {
     private Date date;
 
 
+    public Long getId() {
+        return id;
+    }
 
     public void setId(Long id) {
         this.id = id;
     }
 
-    public Long getId() {
-        return id;
+    public int getOrderId() {
+        return orderId;
     }
 
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
+    }
+
+    public int getItemId() {
+        return itemId;
+    }
+
+    public void setItemId(int itemId) {
+        this.itemId = itemId;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
 
 
 
